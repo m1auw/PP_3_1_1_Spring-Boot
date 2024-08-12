@@ -49,7 +49,7 @@ public class UserController {
         User user = userService.getUserById(id);
         user.setName(name);
         user.setEmail(email);
-        userService.update(user);
+        userService.save(user);
         return "redirect:/users";
     }
 

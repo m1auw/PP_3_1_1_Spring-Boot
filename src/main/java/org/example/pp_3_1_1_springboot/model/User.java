@@ -1,6 +1,7 @@
 package org.example.pp_3_1_1_springboot.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 import java.util.Objects;
 
 @Entity
